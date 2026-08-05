@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lanka Compass – Sri Lanka's official one-stop digital platform for tourists. Find verified travel routes, transport, accommodations, mobile data tips, and more." />
+  <title>Lanka Compass – One Digital Platform for Sri Lanka Tourism</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">🦁</span>
+        <span class="logo-text">Lanka<span class="logo-accent">Compass</span></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#destinations" class="nav-link" id="nav-dest">Destinations</a></li>
+        <li><a href="#routes" class="nav-link" id="nav-routes">Routes</a></li>
+        <li><a href="#transport" class="nav-link" id="nav-transport">Transport</a></li>
+        <li><a href="#fyk" class="nav-link" id="nav-fyk">FYK Info</a></li>
+        <li><a href="#qa" class="nav-link" id="nav-qa">Q&amp;A</a></li>
+        <li><a href="#scam-alert" class="nav-link scam-link" id="nav-scam">⚠️ Scam Alert</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="sri_lanka_hero_1784522884680.png" alt="Sri Lanka landscape" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">🌿 Official Tourist Guide Platform</div>
+      <h1 class="hero-title">
+        Discover <em>Sri Lanka</em><br />The Right Way
+      </h1>
+      <p class="hero-subtitle">
+        Your verified, scam-free, one-stop platform for authentic travel information — routes, transport, connectivity tips, and real traveller support.
+      </p>
+      <div class="hero-actions">
+        <a href="#destinations" class="btn btn-primary" id="hero-explore-btn">Explore Destinations</a>
+        <a href="#scam-alert" class="btn btn-outline" id="hero-scam-btn">⚠️ Check Scam Alerts</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">120+</span>
+          <span class="stat-label">Verified Destinations</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">45+</span>
+          <span class="stat-label">Travel Routes</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Verified Info</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST BANNER ===== -->
+  <section class="trust-banner">
+    <div class="trust-container">
+      <div class="trust-item">
+        <span class="trust-icon">✅</span>
+        <span>Government Verified Data</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">🚫</span>
+        <span>Zero Scam Tolerance</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">🔄</span>
+        <span>Real-Time Updates</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">🌐</span>
+        <span>Available Offline</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">💬</span>
+        <span>24/7 Tourist Support</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DESTINATIONS SECTION ===== -->
+  <section class="section destinations" id="destinations">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🗺️ Explore</span>
+        <h2 class="section-title">Top Destinations</h2>
+        <p class="section-desc">Verified, authentic information about Sri Lanka's most spectacular locations</p>
+      </div>
+
+      <div class="dest-filter" id="dest-filter">
+        <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+        <button class="filter-btn" data-filter="nature" id="filter-nature">🌿 Nature</button>
+        <button class="filter-btn" data-filter="heritage" id="filter-heritage">🏛️ Heritage</button>
+        <button class="filter-btn" data-filter="beach" id="filter-beach">🏖️ Beaches</button>
+        <button class="filter-btn" data-filter="wildlife" id="filter-wildlife">🐘 Wildlife</button>
+      </div>
+
+      <div class="destinations-grid" id="destinations-grid">
+
+        <div class="dest-card" data-category="heritage" id="dest-sigiriya">
+          <div class="dest-img-wrap">
+            <img src="sigiriya_rock_1784522913894.png" alt="Sigiriya Lion Rock" class="dest-img" />
+            <div class="dest-badge verified">✅ Verified</div>
+            <div class="dest-tag">Heritage</div>
+          </div>
+          <div class="dest-body">
+            <h3 class="dest-name">Sigiriya Lion Rock</h3>
+            <p class="dest-location">📍 Central Province</p>
+            <p class="dest-desc">Ancient rock fortress and palace ruins with stunning frescoes and water gardens. UNESCO World Heritage Site.</p>
+            <div class="dest-info-row">
+              <span class="dest-info-item">⏱️ Half Day</span>
+              <span class="dest-info-item">💰 LKR 4,500</span>
+              <span class="dest-info-item">📶 Good Signal</span>
+            </div>
+            <div class="dress-code">
+              <span class="dress-icon">👕</span>
+              <span>No dress code — Comfortable walking shoes recommended</span>
+            </div>
+            <button class="dest-btn" onclick="openDestModal('sigiriya')" id="btn-sigiriya">View Details</button>
+          </div>
+        </div>
+
+        <div class="dest-card" data-category="nature" id="dest-ella">
+          <div class="dest-img-wrap">
+            <img src="ella_train_1784522895792.png" alt="Ella Train Ride" class="dest-img" />
+            <div class="dest-badge verified">✅ Verified</div>
+            <div class="dest-tag">Nature</div>
+          </div>
+          <div class="dest-body">
+            <h3 class="dest-name">Ella Odyssey Train</h3>
+            <p class="dest-location">📍 Uva Province</p>
+            <p class="dest-desc">One of the world's most scenic train rides through misty mountains and tea plantations. <strong>Sit on the RIGHT side</strong> for the best views!</p>
+            <div class="dest-info-row">
+              <span class="dest-info-item">⏱️ 7 Hours</span>
+              <span class="dest-info-item">💰 LKR 110–1,000</span>
+              <span class="dest-info-item">📶 Moderate Signal</span>
+            </div>
+            <div class="scam-warning-inline">
+              <span>⚠️</span>
+              <span><strong>Scam Alert:</strong> Some sites charge extra for "left seat bookings" claiming better views — this is FALSE. The scenic side is RIGHT.</span>
+            </div>
+            <button class="dest-btn" onclick="openDestModal('ella')" id="btn-ella">View Details</button>
+          </div>
+        </div>
+
+        <div class="dest-card" data-category="heritage" id="dest-kandy">
+          <div class="dest-img-wrap">
+            <img src="kandy_temple_1784522927450.png" alt="Kandy Temple" class="dest-img" />
+            <div class="dest-badge verified">✅ Verified</div>
+            <div class="dest-tag">Heritage</div>
+          </div>
+          <div class="dest-body">
+            <h3 class="dest-name">Temple of the Tooth – Kandy</h3>
+            <p class="dest-location">📍 Kandy, Central Province</p>
+            <p class="dest-desc">Sacred Buddhist temple housing the relic of the tooth of the Buddha, set beside the beautiful Kandy Lake.</p>
+            <div class="dest-info-row">
+              <span class="dest-info-item">⏱️ 2–3 Hours</span>
+              <span class="dest-info-item">💰 LKR 1,500</span>
+              <span class="dest-info-item">📶 Excellent Signal</span>
+            </div>
+            <div class="dress-code dress-required">
+              <span class="dress-icon">🛕</span>
+              <span><strong>Dress Code Required:</strong> Cover shoulders & knees. Sarongs available at entrance.</span>
+            </div>
+            <button class="dest-btn" onclick="openDestModal('kandy')" id="btn-kandy">View Details</button>
+          </div>
+        </div>
+
+        <div class="dest-card" data-category="beach" id="dest-mirissa">
+          <div class="dest-img-wrap">
+            <img src="mirissa_beach_1784522947085.png" alt="Mirissa Beach" class="dest-img" />
+            <div class="dest-badge verified">✅ Verified</div>
+            <div class="dest-tag">Beach</div>
+          </div>
+          <div class="dest-body">
+            <h3 class="dest-name">Mirissa Beach</h3>
+            <p class="dest-location">📍 Southern Province</p>
+            <p class="dest-desc">Crystal turquoise waters, whale watching opportunities, and stunning sunsets. Best visited November–April.</p>
+            <div class="dest-info-row">
+              <span class="dest-info-item">⏱️ Full Day</span>
+              <span class="dest-info-item">💰 Free Entry</span>
+              <span class="dest-info-item">📶 Good Signal</span>
+            </div>
+            <div class="dress-code">
+              <span class="dress-icon">🏊</span>
+              <span>Beachwear acceptable at beach. Cover up when leaving beach area.</span>
+            </div>
+            <button class="dest-btn" onclick="openDestModal('mirissa')" id="btn-mirissa">View Details</button>
+          </div>
+        </div>
+
+        <div class="dest-card" data-category="heritage" id="dest-galle">
+          <div class="dest-img-wrap">
+            <img src="galle_fort_1784522959122.png" alt="Galle Fort" class="dest-img" />
+            <div class="dest-badge verified">✅ Verified</div>
+            <div class="dest-tag">Heritage</div>
+          </div>
+          <div class="dest-body">
+            <h3 class="dest-name">Galle Fort</h3>
+            <p class="dest-location">📍 Southern Province</p>
+            <p class="dest-desc">A 16th-century Dutch colonial fortress with charming cafés, boutiques, and an iconic lighthouse overlooking the Indian Ocean.</p>
+            <div class="dest-info-row">
+              <span class="dest-info-item">⏱️ Half Day</span>
+              <span class="dest-info-item">💰 Free Entry</span>
+              <span class="dest-info-item">📶 Excellent Signal</span>
+            </div>
+            <div class="dress-code">
+              <span class="dress-icon">👗</span>
+              <span>Casual clothing acceptable. Modest dress recommended in town areas.</span>
+            </div>
+            <button class="dest-btn" onclick="openDestModal('galle')" id="btn-galle">View Details</button>
+          </div>
+        </div>
+
+        <div class="dest-card" data-category="wildlife" id="dest-yala">
+          <div class="dest-img-wrap">
+            <div class="dest-img-placeholder wildlife-placeholder">
+              <div class="placeholder-icon">🐆</div>
+              <div class="placeholder-text">Yala National Park</div>
+            </div>
+            <div class="dest-badge verified">✅ Verified</div>
+            <div class="dest-tag">Wildlife</div>
+          </div>
+          <div class="dest-body">
+            <h3 class="dest-name">Yala National Park</h3>
+            <p class="dest-location">📍 Southern/Uva Province</p>
+            <p class="dest-desc">World's highest leopard density per square km. Elephants, crocodiles, and exotic birds in their natural habitat.</p>
+            <div class="dest-info-row">
+              <span class="dest-info-item">⏱️ Full Day</span>
+              <span class="dest-info-item">💰 LKR 5,000+</span>
+              <span class="dest-info-item">📶 Limited Signal</span>
+            </div>
+            <div class="dress-code">
+              <span class="dress-icon">🌿</span>
+              <span>Neutral/earth tone clothing recommended. Closed shoes required.</span>
+            </div>
+            <button class="dest-btn" onclick="openDestModal('yala')" id="btn-yala">View Details</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ROUTES SECTION ===== -->
+  <section class="section routes-section" id="routes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🛣️ Navigate</span>
+        <h2 class="section-title">Popular Travel Routes</h2>
+        <p class="section-desc">Verified, optimized routes with real transport options and time estimates</p>
+      </div>
+      <div class="routes-grid" id="routes-grid">
+
+        <div class="route-card" id="route-colombo-ella">
+          <div class="route-header">
+            <div class="route-icon">🚂</div>
+            <div class="route-meta">
+              <h3>Colombo → Ella</h3>
+              <span class="route-duration">⏱️ ~7 hours</span>
+            </div>
+            <div class="route-rating">⭐ 4.9</div>
+          </div>
+          <div class="route-timeline">
+            <div class="timeline-step">
+              <div class="step-dot start"></div>
+              <div class="step-info">
+                <strong>Colombo Fort Station</strong>
+                <span>Depart 6:47 AM (Intercity Express)</span>
+              </div>
+            </div>
+            <div class="timeline-line"></div>
+            <div class="timeline-step">
+              <div class="step-dot mid"></div>
+              <div class="step-info">
+                <strong>Kandy</strong>
+                <span>Arrive ~9:30 AM – Optional stop</span>
+              </div>
+            </div>
+            <div class="timeline-line"></div>
+            <div class="timeline-step">
+              <div class="step-dot end"></div>
+              <div class="step-info">
+                <strong>Ella Station</strong>
+                <span>Arrive ~2:00 PM</span>
+              </div>
+            </div>
+          </div>
+          <div class="route-tip">
+            <span class="tip-icon">💡</span>
+            <span><strong>Pro Tip:</strong> Book tickets at Colombo Fort in advance. For best scenery, sit on the <strong>RIGHT side</strong> of the train going towards Ella.</span>
+          </div>
+          <div class="route-cost">💰 LKR 110 (3rd Class) — LKR 1,000 (1st Class)</div>
+        </div>
+
+        <div class="route-card" id="route-colombo-kandy">
+          <div class="route-header">
+            <div class="route-icon">🚌</div>
+            <div class="route-meta">
+              <h3>Colombo → Kandy</h3>
+              <span class="route-duration">⏱️ ~2.5–3 hours</span>
+            </div>
+            <div class="route-rating">⭐ 4.7</div>
+          </div>
+          <div class="route-timeline">
+            <div class="timeline-step">
+              <div class="step-dot start"></div>
+              <div class="step-info">
+                <strong>Colombo Bastian Mawatha Bus Stand</strong>
+                <span>Intercity buses depart every 30 mins</span>
+              </div>
+            </div>
+            <div class="timeline-line"></div>
+            <div class="timeline-step">
+              <div class="step-dot end"></div>
+              <div class="step-info">
+                <strong>Kandy Bus Station</strong>
+                <span>Arrive ~3 hours later</span>
+              </div>
+            </div>
+          </div>
+          <div class="route-tip">
+            <span class="tip-icon">💡</span>
+            <span><strong>Options:</strong> Express bus (LKR 300), Luxury AC bus (LKR 700), Train (LKR 250), or Taxi (LKR 6,000–8,000)</span>
+          </div>
+          <div class="route-cost">💰 LKR 300–8,000 depending on mode</div>
+        </div>
+
+        <div class="route-card" id="route-kandy-sigiriya">
+          <div class="route-header">
+            <div class="route-icon">🚐</div>
+            <div class="route-meta">
+              <h3>Kandy → Sigiriya</h3>
+              <span class="route-duration">⏱️ ~3 hours</span>
+            </div>
+            <div class="route-rating">⭐ 4.6</div>
+          </div>
+          <div class="route-timeline">
+            <div class="timeline-step">
+              <div class="step-dot start"></div>
+              <div class="step-info">
+                <strong>Kandy Bus Stand</strong>
+                <span>Take bus to Dambulla (2 hrs)</span>
+              </div>
+            </div>
+            <div class="timeline-line"></div>
+            <div class="timeline-step">
+              <div class="step-dot mid"></div>
+              <div class="step-info">
+                <strong>Dambulla</strong>
+                <span>Change to local bus/tuk-tuk to Sigiriya</span>
+              </div>
+            </div>
+            <div class="timeline-line"></div>
+            <div class="timeline-step">
+              <div class="step-dot end"></div>
+              <div class="step-info">
+                <strong>Sigiriya</strong>
+                <span>Arrive at Lion Rock Entrance</span>
+              </div>
+            </div>
+          </div>
+          <div class="route-tip">
+            <span class="tip-icon">💡</span>
+            <span>Start early (before 7 AM) to avoid heat and crowds at the rock climb.</span>
+          </div>
+          <div class="route-cost">💰 Bus: LKR 200 + Tuk-tuk: LKR 500</div>
+        </div>
+
+        <div class="route-card" id="route-galle-mirissa">
+          <div class="route-header">
+            <div class="route-icon">🚂</div>
+            <div class="route-meta">
+              <h3>Galle → Mirissa</h3>
+              <span class="route-duration">⏱️ ~45 minutes</span>
+            </div>
+            <div class="route-rating">⭐ 4.8</div>
+          </div>
+          <div class="route-timeline">
+            <div class="timeline-step">
+              <div class="step-dot start"></div>
+              <div class="step-info">
+                <strong>Galle Station</strong>
+                <span>Multiple trains daily along coast</span>
+              </div>
+            </div>
+            <div class="timeline-line"></div>
+            <div class="timeline-step">
+              <div class="step-dot end"></div>
+              <div class="step-info">
+                <strong>Weligama / Mirissa Stop</strong>
+                <span>10-min tuk-tuk to Mirissa Beach</span>
+              </div>
+            </div>
+          </div>
+          <div class="route-tip">
+            <span class="tip-icon">💡</span>
+            <span>The coastal train offers ocean views the whole way. Book on the left side going south.</span>
+          </div>
+          <div class="route-cost">💰 LKR 50–100 Train + LKR 300 Tuk-tuk</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRANSPORT SECTION ===== -->
+  <section class="section transport-section" id="transport">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🚌 Getting Around</span>
+        <h2 class="section-title">Transport Modes</h2>
+        <p class="section-desc">Everything you need to know about getting around Sri Lanka</p>
+      </div>
+      <div class="transport-grid" id="transport-grid">
+        <div class="transport-card" id="tc-train">
+          <div class="transport-icon-wrap" style="background: linear-gradient(135deg, #667eea, #764ba2)">🚂</div>
+          <h3>Trains</h3>
+          <p>Most scenic and affordable. Book at station counters. Unreserved 3rd class available anytime.</p>
+          <ul class="transport-details">
+            <li>✅ Most scenic experience</li>
+            <li>✅ Cheapest option</li>
+            <li>⚠️ Book 1st/2nd class in advance</li>
+            <li>⚠️ Delays are common</li>
+          </ul>
+          <div class="transport-cost">LKR 50 – 1,500</div>
+        </div>
+        <div class="transport-card" id="tc-bus">
+          <div class="transport-icon-wrap" style="background: linear-gradient(135deg, #f7971e, #ffd200)">🚌</div>
+          <h3>Buses</h3>
+          <p>Extensive network covering even remote areas. Intercity AC buses are comfortable. Local buses are crowded but cheap.</p>
+          <ul class="transport-details">
+            <li>✅ Widest coverage</li>
+            <li>✅ Very affordable</li>
+            <li>⚠️ Can be crowded</li>
+            <li>⚠️ No fixed schedule on some routes</li>
+          </ul>
+          <div class="transport-cost">LKR 30 – 800</div>
+        </div>
+        <div class="transport-card" id="tc-tuktuk">
+          <div class="transport-icon-wrap" style="background: linear-gradient(135deg, #11998e, #38ef7d)">🛺</div>
+          <h3>Tuk-tuks</h3>
+          <p>Iconic three-wheelers, perfect for short distances. Negotiate price BEFORE getting in or use the PickMe app.</p>
+          <ul class="transport-details">
+            <li>✅ Available everywhere</li>
+            <li>✅ Great for short trips</li>
+            <li>⚠️ Always negotiate fare first</li>
+            <li>⚠️ Use PickMe app for fair prices</li>
+          </ul>
+          <div class="transport-cost">LKR 100 – 2,000</div>
+        </div>
+        <div class="transport-card" id="tc-taxi">
+          <div class="transport-icon-wrap" style="background: linear-gradient(135deg, #ee0979, #ff6a00)">🚕</div>
+          <h3>Taxi / Uber</h3>
+          <p>PickMe and Uber are available in Colombo and major cities. Metered, safe, and transparent pricing.</p>
+          <ul class="transport-details">
+            <li>✅ Air-conditioned</li>
+            <li>✅ App-based, transparent pricing</li>
+            <li>✅ Safest option</li>
+            <li>⚠️ Not available in remote areas</li>
+          </ul>
+          <div class="transport-cost">LKR 500 – 10,000</div>
+        </div>
+        <div class="transport-card" id="tc-ferry">
+          <div class="transport-icon-wrap" style="background: linear-gradient(135deg, #2193b0, #6dd5ed)">⛵</div>
+          <h3>Ferries & Boats</h3>
+          <p>Available for coastal travel and crossing lagoons. Whale watching boats depart from Mirissa.</p>
+          <ul class="transport-details">
+            <li>✅ Scenic coastal routes</li>
+            <li>✅ Whale watching tours</li>
+            <li>⚠️ Season-dependent</li>
+            <li>⚠️ Book whale watching in advance</li>
+          </ul>
+          <div class="transport-cost">LKR 200 – 5,000</div>
+        </div>
+        <div class="transport-card" id="tc-rental">
+          <div class="transport-icon-wrap" style="background: linear-gradient(135deg, #8e2de2, #4a00e0)">🚗</div>
+          <h3>Car / Scooter Rental</h3>
+          <p>Scooters widely available in tourist towns. Cars available with or without a driver (chauffeur recommended).</p>
+          <ul class="transport-details">
+            <li>✅ Maximum flexibility</li>
+            <li>✅ Reach remote spots</li>
+            <li>⚠️ Drive on the LEFT side</li>
+            <li>⚠️ International license required</li>
+          </ul>
+          <div class="transport-cost">LKR 2,000 – 12,000/day</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FYK SECTION ===== -->
+  <section class="section fyk-section" id="fyk">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📲 For Your Knowledge</span>
+        <h2 class="section-title">Essential Tourist Information</h2>
+        <p class="section-desc">Everything they don't tell you — but you need to know before visiting Sri Lanka</p>
+      </div>
+
+      <div class="fyk-tabs" id="fyk-tabs">
+        <button class="fyk-tab active" data-tab="mobile" id="fyk-tab-mobile">📱 Mobile & Data</button>
+        <button class="fyk-tab" data-tab="wifi" id="fyk-tab-wifi">📶 WiFi</button>
+        <button class="fyk-tab" data-tab="food" id="fyk-tab-food">🍜 Food & Water</button>
+        <button class="fyk-tab" data-tab="toilets" id="fyk-tab-toilets">🚻 Facilities</button>
+        <button class="fyk-tab" data-tab="dress" id="fyk-tab-dress">👘 Dress Code</button>
+        <button class="fyk-tab" data-tab="emergency" id="fyk-tab-emergency">🆘 Emergency</button>
+      </div>
+
+      <div class="fyk-content" id="fyk-content">
+
+        <!-- MOBILE DATA TAB -->
+        <div class="fyk-panel active" id="fyk-panel-mobile">
+          <div class="fyk-alert warning">
+            ⚠️ <strong>Don't just recharge and use data!</strong> Prepaid data recharges are very expensive per MB. Always buy a <strong>data package</strong> to save money.
+          </div>
+          <h3 class="fyk-subtitle">📱 SIM Cards for Tourists</h3>
+          <p class="fyk-intro">Getting a local SIM is the most cost-effective way to stay connected. You can buy at the airport on arrival or at any telecom shop.</p>
+          <div class="provider-cards">
+            <div class="provider-card" id="prov-dialog">
+              <div class="provider-header">
+                <div class="provider-logo dialog">Dialog</div>
+                <div class="provider-badge best">Best Coverage</div>
+              </div>
+              <p>Sri Lanka's largest telecom. Best 4G coverage across the island including rural areas.</p>
+              <div class="packages">
+                <div class="package-item">
+                  <span class="pkg-name">Tourist Pack 7-Day</span>
+                  <span class="pkg-data">10 GB</span>
+                  <span class="pkg-price">LKR 1,500</span>
+                </div>
+                <div class="package-item">
+                  <span class="pkg-name">Tourist Pack 14-Day</span>
+                  <span class="pkg-data">20 GB</span>
+                  <span class="pkg-price">LKR 2,500</span>
+                </div>
+                <div class="package-item">
+                  <span class="pkg-name">Social Media Bundle</span>
+                  <span class="pkg-data">WhatsApp + FB unlimited</span>
+                  <span class="pkg-price">LKR 199/day</span>
+                </div>
+              </div>
+              <div class="provider-tip">💡 Best for Google Maps navigation in remote areas</div>
+            </div>
+            <div class="provider-card" id="prov-mobitel">
+              <div class="provider-header">
+                <div class="provider-logo mobitel">Mobitel</div>
+                <div class="provider-badge">State-Owned</div>
+              </div>
+              <p>Government-owned network. Reliable coverage in cities and tourist hubs.</p>
+              <div class="packages">
+                <div class="package-item">
+                  <span class="pkg-name">Travel Smart 7-Day</span>
+                  <span class="pkg-data">8 GB</span>
+                  <span class="pkg-price">LKR 1,200</span>
+                </div>
+                <div class="package-item">
+                  <span class="pkg-name">Vacation Pack</span>
+                  <span class="pkg-data">15 GB + 500 mins</span>
+                  <span class="pkg-price">LKR 2,000</span>
+                </div>
+              </div>
+              <div class="provider-tip">💡 Good option if you'll mostly be in Colombo and main cities</div>
+            </div>
+            <div class="provider-card" id="prov-airtel">
+              <div class="provider-header">
+                <div class="provider-logo airtel">Airtel</div>
+              </div>
+              <p>Competitive rates with decent coverage. Good for budget-conscious travellers.</p>
+              <div class="packages">
+                <div class="package-item">
+                  <span class="pkg-name">Tourist SIM</span>
+                  <span class="pkg-data">5 GB</span>
+                  <span class="pkg-price">LKR 800</span>
+                </div>
+                <div class="package-item">
+                  <span class="pkg-name">Maps Bundle</span>
+                  <span class="pkg-data">Google Maps unlimited</span>
+                  <span class="pkg-price">LKR 99/day</span>
+                </div>
+              </div>
+              <div class="provider-tip">💡 Budget option — good for city use</div>
+            </div>
+          </div>
+          <div class="coverage-map-note">
+            <span class="cov-icon">🗺️</span>
+            <div>
+              <strong>Coverage Areas:</strong> All major tourist spots have 4G coverage. Remote areas (deep jungle, some mountain paths) may have limited or no signal. Download offline maps before heading into remote areas.
+            </div>
+          </div>
+        </div>
+
+        <!-- WIFI TAB -->
+        <div class="fyk-panel" id="fyk-panel-wifi">
+          <div class="wifi-grid">
+            <div class="wifi-item available" id="wifi-hotels">
+              <div class="wifi-icon">🏨</div>
+              <h4>Hotels & Guesthouses</h4>
+              <p>Almost all tourist accommodations offer free WiFi. Password usually at reception.</p>
+              <div class="wifi-speed">Average Speed: 5–25 Mbps</div>
+            </div>
+            <div class="wifi-item available" id="wifi-cafes">
+              <div class="wifi-icon">☕</div>
+              <h4>Cafés & Restaurants</h4>
+              <p>Most tourist-friendly cafés offer free WiFi, especially in Colombo, Galle, Ella, and Kandy.</p>
+              <div class="wifi-speed">Average Speed: 3–15 Mbps</div>
+            </div>
+            <div class="wifi-item limited" id="wifi-airports">
+              <div class="wifi-icon">✈️</div>
+              <h4>Airports</h4>
+              <p>BIA (Colombo Airport) offers free WiFi. Good speeds for arrivals and departures.</p>
+              <div class="wifi-speed">Average Speed: 10–30 Mbps</div>
+            </div>
+            <div class="wifi-item limited" id="wifi-malls">
+              <div class="wifi-icon">🏬</div>
+              <h4>Shopping Malls</h4>
+              <p>Major malls in Colombo (One Galle Face, Majestic City) offer public WiFi zones.</p>
+              <div class="wifi-speed">Average Speed: 5–20 Mbps</div>
+            </div>
+            <div class="wifi-item unavailable" id="wifi-trains">
+              <div class="wifi-icon">🚂</div>
+              <h4>Trains & Buses</h4>
+              <p>No WiFi onboard. Use mobile data or download content before your journey.</p>
+              <div class="wifi-speed">⚠️ No WiFi — Use mobile data</div>
+            </div>
+            <div class="wifi-item unavailable" id="wifi-remote">
+              <div class="wifi-icon">🌿</div>
+              <h4>Remote / Nature Areas</h4>
+              <p>National parks, mountain trails, and rural villages generally have no WiFi.</p>
+              <div class="wifi-speed">⚠️ Download offline maps in advance!</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOOD & WATER TAB -->
+        <div class="fyk-panel" id="fyk-panel-food">
+          <div class="food-section">
+            <h3 class="fyk-subtitle">🚰 Drinking Water</h3>
+            <div class="fyk-alert danger">
+              🚫 <strong>Do NOT drink tap water.</strong> It is not safe for tourists. Always use bottled water or filtered water.
+            </div>
+            <div class="water-options">
+              <div class="water-opt"><span>🍶</span><div><strong>Bottled Water:</strong> LKR 50–100 (500ml). Available everywhere.</div></div>
+              <div class="water-opt"><span>🏪</span><div><strong>Filtered Water Stations:</strong> Available in most hotels and many restaurants.</div></div>
+              <div class="water-opt"><span>🥥</span><div><strong>King Coconut (Thambili):</strong> Natural, safe, and delicious! LKR 50–100 on the roadside.</div></div>
+            </div>
+          </div>
+          <div class="food-section">
+            <h3 class="fyk-subtitle">🍽️ Food Costs</h3>
+            <div class="cost-table">
+              <div class="cost-row header">
+                <span>Type</span><span>Location</span><span>Avg. Cost</span>
+              </div>
+              <div class="cost-row" id="food-local">
+                <span>🍛 Local Rice & Curry</span><span>Local restaurant</span><span class="cost-green">LKR 200–400</span>
+              </div>
+              <div class="cost-row" id="food-street">
+                <span>🥘 Street Food / Kottu</span><span>Food stalls</span><span class="cost-green">LKR 100–300</span>
+              </div>
+              <div class="cost-row" id="food-tourist">
+                <span>🍴 Tourist Restaurant</span><span>Ella, Galle, Kandy</span><span class="cost-yellow">LKR 800–2,500</span>
+              </div>
+              <div class="cost-row" id="food-fine">
+                <span>🥂 Fine Dining</span><span>Colombo / Beach Hotels</span><span class="cost-red">LKR 3,000–8,000</span>
+              </div>
+              <div class="cost-row" id="food-breakfast">
+                <span>🥐 Breakfast (full)</span><span>Guesthouse</span><span class="cost-green">LKR 300–700</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOILETS TAB -->
+        <div class="fyk-panel" id="fyk-panel-toilets">
+          <h3 class="fyk-subtitle">🚻 Public Toilet Information</h3>
+          <div class="fyk-alert info">
+            ℹ️ <strong>Always carry small change</strong> (LKR 10–30). Most public toilets charge a small fee. Carry your own tissue paper as it's rarely provided.
+          </div>
+          <div class="toilet-grid">
+            <div class="toilet-card free" id="toilet-hotel">
+              <div class="tc-icon">🏨</div>
+              <div class="tc-info">
+                <h4>Hotels & Restaurants</h4>
+                <p>Usually free if you're a guest/customer. Most tourist restaurants have clean Western-style toilets.</p>
+                <div class="tc-fee">Free</div>
+              </div>
+            </div>
+            <div class="toilet-card paid" id="toilet-public">
+              <div class="tc-icon">🚻</div>
+              <div class="tc-info">
+                <h4>Public Toilets</h4>
+                <p>Available near bus stands, train stations, and tourist sites. Cleanliness varies greatly.</p>
+                <div class="tc-fee">LKR 10–30</div>
+              </div>
+            </div>
+            <div class="toilet-card paid" id="toilet-attractions">
+              <div class="tc-icon">🏛️</div>
+              <div class="tc-info">
+                <h4>Tourist Attractions</h4>
+                <p>Sigiriya, Temple of the Tooth, etc. have proper toilet facilities. Usually free with entry ticket.</p>
+                <div class="tc-fee">Free with entry</div>
+              </div>
+            </div>
+            <div class="toilet-card free" id="toilet-malls">
+              <div class="tc-icon">🏬</div>
+              <div class="tc-info">
+                <h4>Shopping Malls</h4>
+                <p>Clean, modern, free toilets in all major malls. Best option in Colombo.</p>
+                <div class="tc-fee">Free</div>
+              </div>
+            </div>
+          </div>
+          <div class="tip-box">
+            <strong>💡 Tip:</strong> Download the <strong>Flush</strong> app or use Google Maps to find "public toilets near me" in Sri Lanka's cities.
+          </div>
+        </div>
+
+        <!-- DRESS CODE TAB -->
+        <div class="fyk-panel" id="fyk-panel-dress">
+          <h3 class="fyk-subtitle">👘 Dress Code Guide</h3>
+          <div class="dress-grid">
+            <div class="dress-card strict" id="dress-temples">
+              <div class="dress-card-icon">🛕</div>
+              <h4>Buddhist Temples</h4>
+              <div class="dress-rules">
+                <div class="rule must"><span>✅</span> Cover shoulders and knees</div>
+                <div class="rule must"><span>✅</span> Remove shoes before entering</div>
+                <div class="rule must"><span>✅</span> Remove hats inside</div>
+                <div class="rule must-not"><span>🚫</span> No shorts or sleeveless tops</div>
+                <div class="rule must-not"><span>🚫</span> No pointing feet at statues</div>
+              </div>
+              <div class="dress-note">Sarongs often provided at entrance for a small fee</div>
+            </div>
+            <div class="dress-card strict" id="dress-mosques">
+              <div class="dress-card-icon">🕌</div>
+              <h4>Mosques</h4>
+              <div class="dress-rules">
+                <div class="rule must"><span>✅</span> Full-length clothing for all</div>
+                <div class="rule must"><span>✅</span> Women: head covering required</div>
+                <div class="rule must"><span>✅</span> Remove shoes at entrance</div>
+                <div class="rule must-not"><span>🚫</span> No shorts or revealing clothing</div>
+              </div>
+            </div>
+            <div class="dress-card moderate" id="dress-beaches">
+              <div class="dress-card-icon">🏖️</div>
+              <h4>Beaches</h4>
+              <div class="dress-rules">
+                <div class="rule must"><span>✅</span> Swimwear acceptable at the beach</div>
+                <div class="rule must"><span>✅</span> Cover up when leaving beach</div>
+                <div class="rule must-not"><span>⚠️</span> Topless sunbathing is frowned upon</div>
+              </div>
+            </div>
+            <div class="dress-card relaxed" id="dress-general">
+              <div class="dress-card-icon">👕</div>
+              <h4>General / Cities</h4>
+              <div class="dress-rules">
+                <div class="rule must"><span>✅</span> Casual clothing is fine</div>
+                <div class="rule must"><span>✅</span> Light, breathable fabrics recommended</div>
+                <div class="rule must"><span>✅</span> Comfortable walking shoes</div>
+                <div class="rule note"><span>💡</span> Sri Lankans dress modestly — blending in is appreciated</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EMERGENCY TAB -->
+        <div class="fyk-panel" id="fyk-panel-emergency">
+          <h3 class="fyk-subtitle">🆘 Emergency Contacts</h3>
+          <div class="emergency-grid">
+            <a class="emergency-card urgent" href="tel:119" id="emergency-police">
+              <div class="em-icon">👮</div>
+              <div class="em-info">
+                <h4>Police</h4>
+                <p>Tourist Police available in major cities</p>
+                <div class="em-number">119</div>
+              </div>
+            </a>
+            <a class="emergency-card urgent" href="tel:110" id="emergency-ambulance">
+              <div class="em-icon">🚑</div>
+              <div class="em-info">
+                <h4>Ambulance</h4>
+                <p>Emergency Medical Services</p>
+                <div class="em-number">110</div>
+              </div>
+            </a>
+            <a class="emergency-card urgent" href="tel:111" id="emergency-fire">
+              <div class="em-icon">🔥</div>
+              <div class="em-info">
+                <h4>Fire Service</h4>
+                <p>Fire & Rescue</p>
+                <div class="em-number">111</div>
+              </div>
+            </a>
+            <a class="emergency-card info-card" href="tel:+94112421052" id="emergency-tourist-police">
+              <div class="em-icon">🌐</div>
+              <div class="em-info">
+                <h4>Tourist Police Hotline</h4>
+                <p>Specialized assistance for tourists</p>
+                <div class="em-number">+94 11 242 1052</div>
+              </div>
+            </a>
+            <a class="emergency-card info-card" href="tel:1912" id="emergency-sltda">
+              <div class="em-icon">🏛️</div>
+              <div class="em-info">
+                <h4>SLTDA Complaints</h4>
+                <p>Report scams or issues with operators</p>
+                <div class="em-number">1912</div>
+              </div>
+            </a>
+            <a class="emergency-card info-card" href="tel:+94112381116" id="emergency-hospital">
+              <div class="em-icon">🏥</div>
+              <div class="em-info">
+                <h4>Colombo National Hospital</h4>
+                <p>Largest public hospital</p>
+                <div class="em-number">+94 11 269 1111</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCAM ALERT SECTION ===== -->
+  <section class="section scam-section" id="scam-alert">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag danger-tag">⚠️ Stay Safe</span>
+        <h2 class="section-title">Known Scams & Alerts</h2>
+        <p class="section-desc">Real, verified alerts to protect you from common tourist traps in Sri Lanka</p>
+      </div>
+      <div class="scam-grid" id="scam-grid">
+
+        <div class="scam-card" id="scam-train-seats">
+          <div class="scam-header">
+            <span class="scam-severity high">🔴 High Risk</span>
+            <h3>Ella Train "Best Seat" Scam</h3>
+          </div>
+          <p>Several websites charge premium prices for "left side" seats on the Colombo–Ella train, claiming they offer the best scenery. <strong>This is completely false.</strong></p>
+          <div class="truth-box">
+            <strong>✅ The Truth:</strong> The best views are on the <strong>RIGHT side</strong> of the train when travelling from Colombo to Ella (e.g., Nine Arches Bridge views). No extra charge for any seat selection on government trains.
+          </div>
+          <div class="scam-action">Report this: <a href="tel:1912">Call SLTDA 1912</a></div>
+        </div>
+
+        <div class="scam-card" id="scam-fake-booking">
+          <div class="scam-header">
+            <span class="scam-severity high">🔴 High Risk</span>
+            <h3>Fake Train Ticket Websites</h3>
+          </div>
+          <p>Many unofficial websites claim to sell Sri Lanka train tickets online at inflated prices, sometimes with no actual reservation made.</p>
+          <div class="truth-box">
+            <strong>✅ The Truth:</strong> The only official train booking sites are <strong>railwayticket.expogroup.lk</strong> (government), <strong>visits.lk</strong> (SLTDA approved), and direct station counters. Any other site should be avoided.
+          </div>
+          <div class="scam-action">Official booking: <strong>railwayticket.expogroup.lk</strong></div>
+        </div>
+
+        <div class="scam-card" id="scam-gem-shops">
+          <div class="scam-header">
+            <span class="scam-severity medium">🟡 Medium Risk</span>
+            <h3>Gem Shop Commission Scams</h3>
+          </div>
+          <p>Friendly locals and tuk-tuk drivers may offer to take you to a "family gem shop" or "special government store". They earn commissions and prices are highly inflated.</p>
+          <div class="truth-box">
+            <strong>✅ The Truth:</strong> Only buy gems from SLTDA registered shops. Ask for the gem certificate and registration number before purchasing.
+          </div>
+        </div>
+
+        <div class="scam-card" id="scam-tuktuk-meter">
+          <div class="scam-severity medium">🟡 Medium Risk</div>
+          <h3>Tuk-tuk Overcharging</h3>
+          <p>Drivers may quote 3x the normal fare to tourists, especially at tourist spots and airports.</p>
+          <div class="truth-box">
+            <strong>✅ Solution:</strong> Use <strong>PickMe</strong> or <strong>Uber</strong> apps for transparent, metered pricing. If negotiating, research fair prices for your route beforehand.
+          </div>
+        </div>
+
+        <div class="scam-card" id="scam-wifi-recharge">
+          <div class="scam-severity low">🟢 Info</div>
+          <h3>Mobile Data Recharge Trap</h3>
+          <p>Tourists often top up their balance and use data directly — this depletes credit extremely quickly. LKR 1,000 in raw data can be used up in a few hours.</p>
+          <div class="truth-box">
+            <strong>✅ Solution:</strong> Always activate a <strong>data package</strong> after recharging. See our FYK section for recommended packages from Dialog, Mobitel, and Airtel.
+          </div>
+        </div>
+
+        <div class="scam-card" id="scam-accommodation">
+          <div class="scam-severity medium">🟡 Medium Risk</div>
+          <h3>Fake Accommodation Photos</h3>
+          <p>Some guesthouses use heavily edited or stolen photos online. The actual property may be very different from what's shown.</p>
+          <div class="truth-box">
+            <strong>✅ Solution:</strong> Only book through verified platforms (Booking.com, Airbnb) or SLTDA registered guesthouses. Check recent reviews from the past 3 months.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Q&A SECTION ===== -->
+  <section class="section qa-section" id="qa">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">💬 Community</span>
+        <h2 class="section-title">Tourist Q&amp;A Hub</h2>
+        <p class="section-desc">Get answers from verified local experts and fellow travellers</p>
+      </div>
+
+      <div class="qa-wrapper">
+        <div class="qa-ask-box">
+          <h3>Ask a Question</h3>
+          <div class="qa-form" id="qa-form">
+            <div class="qa-form-row">
+              <input type="text" id="qa-name-input" placeholder="Your name (optional)" class="qa-input" />
+              <select id="qa-category-select" class="qa-input qa-select">
+                <option value="">Select category</option>
+                <option value="transport">Transport</option>
+                <option value="accommodation">Accommodation</option>
+                <option value="food">Food & Water</option>
+                <option value="safety">Safety & Scams</option>
+                <option value="connectivity">Mobile & WiFi</option>
+                <option value="cultural">Culture & Dress</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <textarea id="qa-question-input" class="qa-textarea" placeholder="Ask anything about travelling in Sri Lanka..."></textarea>
+            <button class="btn btn-primary" id="qa-submit-btn" onclick="submitQuestion()">Submit Question</button>
+          </div>
+        </div>
+
+        <div class="qa-list" id="qa-list">
+          <h3>Recent Questions &amp; Answers</h3>
+
+          <div class="qa-item answered" id="qa-item-1">
+            <div class="qa-question">
+              <span class="qa-icon">❓</span>
+              <div>
+                <strong>Is it safe to drink water from temple premises?</strong>
+                <div class="qa-meta">
+                  <span class="qa-category">Food & Water</span>
+                  <span class="qa-user">Sarah M. from Germany</span>
+                </div>
+              </div>
+            </div>
+            <div class="qa-answer">
+              <span class="qa-answer-icon">✅</span>
+              <div>
+                <strong>Verified Answer:</strong> No. Always use bottled water. Temple water dispensers may have filtered water but it's safer to carry your own. King coconut (Thambili) is a great natural alternative available at LKR 50–100.
+                <div class="qa-answered-by">Answered by Lanka Compass Team</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="qa-item answered" id="qa-item-2">
+            <div class="qa-question">
+              <span class="qa-icon">❓</span>
+              <div>
+                <strong>Can I use my foreign credit card at Sri Lanka ATMs?</strong>
+                <div class="qa-meta">
+                  <span class="qa-category">Finance</span>
+                  <span class="qa-user">James K. from UK</span>
+                </div>
+              </div>
+            </div>
+            <div class="qa-answer">
+              <span class="qa-answer-icon">✅</span>
+              <div>
+                <strong>Verified Answer:</strong> Yes, Visa and Mastercard are widely accepted at ATMs in cities. However, in rural areas and on trains, cash is preferred. Withdraw at ComBank, HNB, or Sampath Bank ATMs which reliably accept international cards. Notify your bank before travel.
+                <div class="qa-answered-by">Answered by Lanka Compass Team</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="qa-item answered" id="qa-item-3">
+            <div class="qa-question">
+              <span class="qa-icon">❓</span>
+              <div>
+                <strong>Which side of the Ella train has better views?</strong>
+                <div class="qa-meta">
+                  <span class="qa-category">Transport</span>
+                  <span class="qa-user">Priya L. from India</span>
+                </div>
+              </div>
+            </div>
+            <div class="qa-answer">
+              <span class="qa-answer-icon">✅</span>
+              <div>
+                <strong>Verified Answer:</strong> <strong>Right side</strong> of the train when going from Colombo to Ella. The Nine Arches Bridge, tea plantation drops, and valley views are best seen from the right. Don't pay extra for any "special view seats" — that is a scam.
+                <div class="qa-answered-by">Answered by Lanka Compass Team</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="qa-item unanswered" id="qa-item-4">
+            <div class="qa-question">
+              <span class="qa-icon">❓</span>
+              <div>
+                <strong>Is there a ferry service between Colombo and Jaffna?</strong>
+                <div class="qa-meta">
+                  <span class="qa-category">Transport</span>
+                  <span class="qa-user">Tom R. from Australia</span>
+                </div>
+              </div>
+            </div>
+            <div class="qa-pending">
+              <span>⏳</span> <em>Answer pending — Our team is verifying this information</em>
+            </div>
+          </div>
+
+          <div id="qa-dynamic-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">🦁 Lanka<span class="logo-accent">Compass</span></div>
+        <p class="footer-tagline">Your trusted, scam-free guide to Sri Lanka.</p>
+        <p class="footer-copy">Data verified by SLTDA (Sri Lanka Tourism Development Authority)</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="#destinations">Destinations</a>
+          <a href="#routes">Travel Routes</a>
+          <a href="#transport">Transport</a>
+        </div>
+        <div class="footer-col">
+          <h4>Info</h4>
+          <a href="#fyk">Mobile & Data</a>
+          <a href="#fyk">WiFi Guide</a>
+          <a href="#fyk">Food & Water</a>
+          <a href="#fyk">Dress Codes</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="#qa">Q&amp;A Hub</a>
+          <a href="#scam-alert">Scam Alerts</a>
+          <a href="tel:1912">Report an Issue (1912)</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Lanka Compass. Powered by SLTDA. Not affiliated with any private booking agency.</p>
+    </div>
+  </footer>
+
+  <!-- ===== DESTINATION MODAL ===== -->
+  <div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+    <div class="modal-box" id="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close" id="modal-close-btn" onclick="closeModal()">✕</button>
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- ===== SCROLL TO TOP ===== -->
+  <button class="scroll-top" id="scroll-top-btn" onclick="scrollToTop()" aria-label="Scroll to top">↑</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
