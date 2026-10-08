@@ -1,5 +1,6 @@
 <div align="center">
-  # 🦁 LankaCompass
+  
+# 🦁 LankaCompass
 
 **One Digital Platform for Sri Lanka Tourism**
 
