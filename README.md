@@ -1,9 +1,12 @@
-# 🦁 LankaCompass
+<div align="center">
+  # 🦁 LankaCompass
 
 **One Digital Platform for Sri Lanka Tourism**
 
 LankaCompass is a beautifully designed, fully static web platform built to help tourists explore Sri Lanka safely and confidently. It provides verified travel information, popular routes, transport guides, connectivity tips, scam alerts, and a live Q&A section — all in one place.
-
+<br>
+<img width="1915" height="974" alt="Screenshot 2026-08-06 011400" src="https://github.com/user-attachments/assets/10e36122-a2b9-432f-a085-200c3398f89f" />
+</div>
 ---
 
 ## 🌐 Live Preview
@@ -38,6 +41,8 @@ LankaCompass is a beautifully designed, fully static web platform built to help 
 - **Galle Fort** — Dutch colonial fortress, UNESCO Heritage
 - **Yala National Park** — World's highest leopard density
 
+<img width="1919" height="862" alt="Screenshot 2026-08-06 005854" src="https://github.com/user-attachments/assets/c0bcda09-f214-41ba-8332-a5cb73454e31" />
+
 ---
 
 ## 🛣️ Routes Covered
@@ -46,6 +51,10 @@ LankaCompass is a beautifully designed, fully static web platform built to help 
 - Colombo → Kandy (Bus/Train, ~2.5–3 hrs)
 - Kandy → Sigiriya (Bus + Tuk-tuk, ~3 hrs)
 - Galle → Mirissa (Coastal Train, ~45 mins)
+  
+<img width="1919" height="861" alt="Screenshot 2026-08-06 005913" src="https://github.com/user-attachments/assets/03615c08-28af-4b46-a637-230f32522217" />
+
+  
 
 ---
 
@@ -100,6 +109,9 @@ LankaCompass takes tourist safety seriously. The platform highlights common scam
 - **Overpriced tuk-tuk fares** — and how to use PickMe instead
 - **Wildlife tour scams** — unethical operators promising guaranteed leopard sightings
 
+  <img width="1907" height="863" alt="Screenshot 2026-08-06 005955" src="https://github.com/user-attachments/assets/62a152ba-9a76-42c9-bfa8-67948a7bc580" />
+
+
 ---
 
 ## 📋 Essential Tourist Tips Included
@@ -109,6 +121,9 @@ LankaCompass takes tourist safety seriously. The platform highlights common scam
 - 👗 **Dress codes** — Temple, mosque, beach, and city guidelines
 - 🆘 **Emergency numbers** — Police (119), Ambulance (110), Fire (111)
 - 🚻 **Public facilities** — What to expect and what to bring
+
+<img width="1917" height="861" alt="Screenshot 2026-08-06 005941" src="https://github.com/user-attachments/assets/0e0f83b5-cf3a-4a91-8ede-1ee45825b38c" />
+
 
 ---
 
@@ -126,6 +141,9 @@ npx serve .
 ```
 
 Then open your browser at **http://localhost:3000**
+
+<img width="1907" height="863" alt="Screenshot 2026-08-06 005955" src="https://github.com/user-attachments/assets/c324cce3-1526-49f0-99ec-7c98ec5f4ad3" />
+
 
 ---
 
